@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Recommendation App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Recommendation App</h1>
+    <p>Select your favorite genre to get movie recommendations:</p>
+
+    <select id="genreSelect">
+      <option value="">-- Choose a Genre --</option>
+      <option value="action">Action</option>
+      <option value="comedy">Comedy</option>
+      <option value="drama">Drama</option>
+      <option value="sci-fi">Sci-Fi</option>
+      <option value="romance">Romance</option>
+    </select>
+
+    <button id="recommendBtn">Get Recommendations</button>
+
+    <div id="movieList" class="movie-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
